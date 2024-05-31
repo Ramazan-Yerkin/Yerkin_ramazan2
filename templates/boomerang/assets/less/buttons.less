@@ -1,0 +1,217 @@
+// GENERAL 
+.btn {font-weight:normal; white-space:nowrap; vertical-align:middle; cursor:pointer; background-image:none; border:1px solid transparent;
+border-radius:@btnRadiusMD;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+.btn:hover, .btn:focus {
+    -webkit-transition: background-position .0s linear;
+    -moz-transition: background-position .0s linear;
+    -o-transition: background-position .0s linear;
+    transition: background-position .0s linear;
+}
+.btn i{margin-right:4px;}
+.btn-lg {font-size:18px; line-height:1.33; border-radius:@btnRadiusLG;}
+.btn-lg i{font-size:24px; position:relative; top:3px;}
+.btn-xs{border-radius:@btnRadiusXS;}
+.btn-xl{padding:16px 20px; font-size:@fontSize-lg;}
+.btn-square{border-radius:0 !important;}
+
+//// ALPHA BUTTONS
+
+// BUTTON 1
+.btn-a-one {background-color:@btnOneAlpha; border:0; color:#FFF; border-radius:0;}
+.btn-a-one:hover,
+.btn-a-one:focus,
+.btn-a-one:active,
+.btn-a-one.active,
+.open .dropdown-toggle.btn-a-one {color:@bgBase; background-color:#FFF; border:0;}
+.btn-a-one:active,
+.btn-a-one.active,
+.open .dropdown-toggle.btn-a-one {background-image: none;}
+.input-group-btn .btn-a-one{border-left:1px solid #fff;}
+
+//// BORDERED BUTTONS
+
+// BUTTON 1 - WHITE
+.btn-b-white {background-color: transparent; border: 2px solid #FFF; color:#FFF !important;}
+.btn-b-white:hover,
+.btn-b-white:focus,
+.btn-b-white:active,
+.btn-b-white.active,
+.open .dropdown-toggle.btn-b-white {color: @bgBase !important; background-color:#FFF; border-color:#FFF;}
+.btn-b-white:active,
+.btn-b-white.active,
+.open .dropdown-toggle.btn-b-white {background-image: none;}
+.btn-b-white:hover:before{color: @bgBase !important;}
+.btn-b-white.btn-icon:before{border-right: 2px solid #FFF;}
+.btn-b-white.btn-icon-right:before{border-right: 0; border-left: 2px solid #FFF;}
+
+// BUTTON 2 - BASE
+.btn-b-base {background-color:transparent; border:2px solid @bgBase; color:@bgBase;}
+.btn-b-base:hover,
+.btn-b-base:focus,
+.btn-b-base:active,
+.btn-b-base.active,
+.open .dropdown-toggle.btn-b-base {color:@cBaseContrast; background-color:@bgBase; border-color:@bgBase;}
+.btn-b-base:active,
+.btn-b-base.active,
+.open .dropdown-toggle.btn-b-base {background-image: none;}
+.btn-b-base.btn-icon:before{border-right: 2px solid @bgBase;}
+.btn-b-base.btn-icon-right:before{border-right: 0; border-left: 2px solid @bgBase;}
+
+// BUTTON 2 - BASE ALT
+.btn-b-alt {background-color:transparent; border:2px solid @bgAlt; color:@bgAlt;}
+.btn-b-alt:hover,
+.btn-b-alt:focus,
+.btn-b-alt:active,
+.btn-b-alt.active,
+.open .dropdown-toggle.btn-b-alt {color:#fff; background-color:@bgAlt; border-color:@bgAlt;}
+.btn-b-alt:active,
+.btn-b-alt.active,
+.open .dropdown-toggle.btn-b-alt {background-image: none;}
+.btn-b-alt.btn-icon:before{border-right: 2px solid @bgAlt;}
+.btn-b-alt.btn-icon-right:before{border-right: 0; border-left: 2px solid @bgAlt;}
+
+// BUTTON 4 - DARK
+.btn-b-light{background-color:transparent; border:2px solid @bgLight; color:@bgLight;}
+.btn-b-light:hover,
+.btn-b-light:focus,
+.btn-b-light:active,
+.btn-b-light.active,
+.open .dropdown-toggle.btn-b-light {color:@cLightContrast; background-color:@bgLight; border-color:@bgLight;}
+.btn-b-light:active,
+.btn-b-light.active,
+.open .dropdown-toggle.btn-b-light {background-image: none;}
+.btn-b-light.btn-icon:before{border-right: 2px solid @bgLight;}
+.btn-b-light.btn-icon-right:before{border-right: 0; border-left: 2px solid @bgLight;}
+
+// BUTTON 3 - DARK
+.btn-b-dark{background-color:transparent; border:2px solid @bgDark; color:@bgDark;}
+.btn-b-dark:hover,
+.btn-b-dark:focus,
+.btn-b-dark:active,
+.btn-b-dark.active,
+.open .dropdown-toggle.btn-b-dark {color:@cWhite; background-color:@bgDark; border-color:@bgDark;}
+.btn-b-dark:active,
+.btn-b-dark.active,
+.open .dropdown-toggle.btn-b-dark {background-image: none;}
+.btn-b-dark.btn-icon:before{border-right: 2px solid @bgDark;}
+.btn-b-dark.btn-icon-right:before{border-right: 0; border-left: 2px solid @bgDark;}
+
+//// NORMAL BUTTONS
+
+// BUTTON 1
+.btn-base{color: @cBaseContrast !important; background-color: @bgBase; border:1px solid; border-color: darken(@bgBase, 5%);}
+.btn-base:hover,
+.btn-base:focus,
+.btn-base:active,
+.btn-base.active,
+.open .dropdown-toggle.btn-base{color: @cBaseContrast; background-color: lighten(@bgBase, 5%); border-color: lighten(@bgBase, 5%);}
+.btn-base:active,
+.btn-base.active,
+.open .dropdown-toggle.btn-base{background-image: none;}
+
+.btn-alt{color:#ffffff; background-color: @bgAlt; border: 1px solid; border-color: darken(@bgAlt, 5%);}
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-alt:active,
+.btn-alt.active,
+.open .dropdown-toggle.btn-alt{color:#ffffff; background-color: lighten(@bgAlt, 10%); border-color: lighten(@bgAlt, 10%);}
+.btn-alt:active,
+.btn-alt.active,
+.open .dropdown-toggle.btn-alt{background-image:none;}
+
+.btn-dark {color: @cDarkContrast; background-color:@bgDark; border:1px solid; border-color: darken(@bgDark, 5%);}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark{color: @cDarkContrast; background-color: lighten(@bgDark, 10%); border-color: lighten(@bgDark, 10%);}
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark{background-image: none;}
+
+.btn-light{color: @cLightContrast; background-color: @bgLight; border: 1px solid; border-color: darken(@bgLight, 5%);}
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active,
+.btn-light.active,
+.open .dropdown-toggle.btn-light{color:@cLightContrast; background-color: lighten(@bgLight, 10%); border-color: lighten(@bgLight, 10%);}
+.btn-light:active,
+.btn-light.active,
+.open .dropdown-toggle.btn-light{background-image: none;}
+
+.btn-white{color: @cWhiteContrast; background-color: @bgWhite; border: 1px solid; border-color: darken(@bgWhite, 5%);}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active,
+.open .dropdown-toggle.btn-white{color: @cWhiteContrast; background-color: lighten(@bgWhite, 5%); border-color: darken(@bgWhite, 5%);}
+.btn-white:active,
+.btn-white.active,
+.open .dropdown-toggle.btn-white{background-image: none;}
+
+//// BUTTONS WITH ICONS
+
+// BUTTON 1
+.btn-icon{position: relative;}
+.btn-icon span, .btn-icon input{padding-left:40px;}
+.btn-icon-right span, .btn-icon-right input{padding-left:15px; padding-right:50px;}
+
+.btn-icon.btn-xl span, .btn-icon.btn-xl input{padding-left:60px;}
+.btn-icon-right.btn-xl span, .btn-icon-right.btn-xl input{padding-left:30px; padding-right:70px;}
+
+.btn-icon.btn-lg span, .btn-icon.btn-lg input{padding-left:50px;}
+.btn-icon-right.btn-lg span, .btn-icon-right.btn-lg input{padding-left:15px; padding-right:60px;}
+
+.btn-icon.btn-sm span, .btn-icon.btn-sm input{padding-left:35px;}
+.btn-icon-right.btn-sm span, .btn-icon-right.btn-sm input{padding-left:15px; padding-right:45px;}
+
+.btn-icon.btn-xs span, .btn-icon.btn-xs input{padding-left:30px;}
+.btn-icon-right.btn-xs span, .btn-icon-right.btn-xs input{padding-left:15px; padding-right:40px;}
+
+.btn-icon:before{position:absolute; top:0; left:0; bottom:0; width:36px; color:#ffffff; border-right:0;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-ms-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+}
+.btn-icon.btn-icon-right:before{left:auto; right:0;}
+.btn-icon:before{font-family:"FontAwesome"; line-height:32px;}
+.btn-icon.btn-xl:before{width:66px; line-height:62px;}
+.btn-icon.btn-lg:before{width:50px; line-height:46px;}
+.btn-icon.btn-sm:before{width:32px; line-height:28px;}
+.btn-icon.btn-xs:before{width:28px; line-height:22px;}
+
+.btn-icon.btn:before{border-top-left-radius:@btnRadiusMD; border-bottom-left-radius:@btnRadiusMD;}
+.btn-icon.btn-xl:before{border-top-left-radius:@btnRadiusLG; border-bottom-left-radius:@btnRadiusLG;}
+.btn-icon.btn-lg:before{border-top-left-radius:@btnRadiusLG; border-bottom-left-radius:@btnRadiusLG;}
+.btn-icon.btn-xs:before{border-top-left-radius:@btnRadiusXS; border-bottom-left-radius:@btnRadiusXS;}
+
+.btn-base:before{background-color: darken(@bgBase, 10%);}
+.btn-alt:before{background-color: darken(@bgAlt, 10%);}
+.btn-dark:before{background-color: darken(@bgDark, 10%);}
+.btn-light:before{background-color: darken(@bgLight, 10%); color: @cLightContrast;}
+.btn-white:before{background-color: darken(@bgWhite, 10%); color: @cGray;}
+
+// ICONS
+.btn-icon-go:before{content: "\f054";}
+.btn-envelope:before{content: "\f003";}
+.btn-cart:before{content: "\f07a";}
+.btn-unlock:before{content: "\f09c";}
+.btn-check:before{content: "\f00c";}
+.btn-search:before{content: "\f002";}
+.btn-comment:before{content: "\f075";}
+.btn-book:before{content: "\f02d";}
+.btn-fly:before{content: "\f1d8";}
+.btn-heart:before{content: "\f004";}
+.btn-send:before{content: "\f1d8";}
+.btn-sign-in:before{content: "\f090";}
+.btn-refresh:before{content: "\f021";}
+
+// BLOCK BUTTONS BOTTOM
+.btn-block-bm{display: block; width: 100%; border-top-right-radius: 0; border-top-left-radius: 0;}

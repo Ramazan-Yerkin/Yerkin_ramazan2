@@ -1,0 +1,256 @@
+// IMPORTANT: We sliced this file in two sections: Easy customization which includes the main variables for colors, fonts etc and the 
+//Advanced customization where those who want to make more in depth modification can modify anything they want. Have fun!
+
+//// 1. EASY CUSTOMIZATION
+
+// DEFAULT BACKGROUND AND COLORS
+@bgBase: 				#E60061;
+@cBaseContrast: 		#FFF;
+ 
+@bgAlt:					darken(@bgBase, 20%);
+@cAltContrast:			#FFF;
+
+@bgLight:				#131313;
+@cLightContrast:		#FFF;
+
+@bgDark:				#000;
+@cDarkContrast:			#FFF;
+
+@bgLightGray: 			#131313;
+@cLightGrayContrast:	#FFF;
+
+@bgWhite:				#0f0f0f;
+@cWhiteContrast: 		#FFF;
+
+// COLORS
+@cTheme: 		@bgBase; 
+@cBase: 		#b7b7b7;	/* Most used for large content such paragraphs etc */
+@cGray: 		#FFF;		/* Most used for headings, titles etc */
+
+// BODY LAYOUT BACKGROUND
+@layoutBg: 		#131313;
+@layoutBg-2: 	#454545;
+ 
+// HEADER BACKGROUND 
+@headerBg:	#0f0f0f;
+
+// FOOTER
+@footerBg:	#000;
+
+// BORDERS
+@borderColor: 	#323232;	// Color used for all section borders including navbar
+
+// RADIUS
+@blockRadius: 2px;	// The radius value used for all the important elements from the template
+
+// FONTS    
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic); 
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+@fontFam-1: "PT Sans", sans-serif; 		/* Main font - for general content */
+@fontFam-2: "Roboto Condensed", sans-serif;		/* Font used for headings, navbar text ... */
+
+// FONT SIZES
+@fontSize: 13px;
+@fontSize-xs: 11px;
+@fontSize-sm: 12px;
+@fontSize-md:16px; 
+@fontSize-lg: 20px;
+@fontSize-xl: 26px;
+
+// SECTION TITLE 
+@sectionTitleSize:		20px;		// Section title font size
+@sectionTitleStyle: 	uppercase;
+@sectionTitleWeight:	500;
+
+// HEADING STYLES
+@headingSize:			18px;		// Main headings font size
+@headingStyle:			uppercase;
+@headingWeight:			500;
+
+//MAIN NAVBAR
+@navTextSize:			15px;		// Main nav font size
+@navTextWeight:			500;		// Main nav font weight
+@navTextStyle:			uppercase;	// Main nav text style
+
+@navbarBg: 					#0f0f0f; 		/* Navbar wrapper background */		
+@navbarElementBg:			#0f0f0f; 		/* Navbar list element background */
+@navbarElementBgHover:		#000; 			/* Navbar list element background on mouse hover */
+@navbarElementBorderColor: 	@bgBase;		/* Optional border color on top of nav element on hover */
+@cNavbarElement:			#FFF; 			/* Navbar list element text color */
+@cNavbarElementHover:		#FFF; 			/* Navbar list element text color on navbar item hover */
+
+@navbarToggle:				@bgBase; 		/* Main nav open button for small resolutions */
+
+// NAVBAR DROPDOWN
+@navbarDropdown: 				#0f0f0f;						/* Navbar dropdown wrapper background */
+@navbarDropdownElementHover:	@bgBase;						/* Navbar dropdown wrapper background */ 
+@navbarDropdownElementBorder: 	darken(@navbarDropdown, 3%);		
+@cNavbarDropdown: 				#FFF;
+@cNavbarDropdownHover: 			#FFF;
+
+// MEGA NAV
+@megaNavTextSize:		14px;		// Mega nav dropdown section title font size
+@megaNavTextWeight:		600;		// Mega nav dropdown section title font weight
+
+@cMeganavDropdownHover: @bgBase;
+@cMegaNavSectionTitle: 	#FFF;
+
+// TOP NAV BACKGROUND	
+@topNavTextSize:		11px;		// Top nav font size
+@topNavTextWeight:		400;		// Top nav font weight
+@topNavTextStyle:		uppercase;	// Top nav text style
+
+@topNavBgWhite:			#555;				/* Top nav background color for white version */
+@topNavBgDark:			#333;				/* Top nav background color for dark (second) version */
+
+@cTopNavWhite:			#EEE;
+@cTopNavDark:			#FFF;
+
+@cTopNavLinkWhite:		@cGray;				/* Top nav link color */
+@cTopNavLinkHoverWhite:	@cGray;				/* Top nav link color on hover*/
+
+@cTopNavLinkDark:		#f3f3f3;			/* Top nav link color */
+@cTopNavLinkHoverDark:	#f3f3f3;			/* Top nav link color on hover*/
+
+// FORMS - GENERAL
+@formControlRadius: 2px;	// Form control border radius
+
+// STYLISH FORM
+@formBg:		darken(@bgBase, 10%);			/* Form control background form the base form (has class: .form-base) */
+@formBorder:	darken(@bgBase, 15%);			/* Form control border color */
+@formColor: 	@cBaseContrast;					/* Form control color */
+
+// LIGHT FORM
+@formLightControlBg:	lighten(@bgWhite, 10%);
+@formLightBorder: 		lighten(@bgWhite, 10%);
+
+// SKY FORM
+@formSkyControlBg: 	lighten(@bgWhite, 10%);
+@formSkyBorder: 	lighten(@bgWhite, 10%);
+
+// LABELS
+@cLabel:		@cGray;
+@labelRadius: 	0;
+
+
+//// 2. ADVANCED CUSTOMIZATION
+
+// HEADER ALPHA (TRANSPARENT/TRANSLUSCENT BACKGROUND)
+@navbarBgAlpha: 					rgba(255, 255, 255, 0);		/* Navbar wrapper background for header-alpha */
+@navbarDropdownAlpha: 				rgba(0, 0, 0, 0.85);		/* Dropdown background for header-alpha */
+@navbarDropdownAlphaElementHover:	#333;						/* Main nav background color on hover */
+@cNavbarAlpha:						#FFF;						/* Main nav text color */
+@cNavbarAlphaHover:					#333;
+@cNavbarAlphaDropdown:				#FFF;						/* Dropdown menu text color */
+@cNavbarAlphaDropdownHover:			#FFF;						/* Dropdown menu text color on hover */
+
+@topNavBgAlpha:			rgba(255, 255, 255, 0.5);				/* Top nav background color */
+@cTopNavAlpha:			#FFF;									/* Top nav text color */
+@cTopNavAlphaHover:		#f00;									/* Top nav text color on hover */
+
+@headerAlphaBorderColor: #EEE;
+
+// BREADCRUMB
+@breadcrumbBg:		#000;
+@cBreadcrumb:		#FFF;
+@cBreadcrumbLink:	#FFF;
+@breadcrumbBorder:	@borderColor;
+
+// SLIDER ELEMENTS
+@bgSliderOne:		#333;
+@bgSliderTwo:		#FFF;
+
+@cSliderOne:		#FFF;
+@cSliderTwo:		#333;
+
+// DEFAULT BACKGROUND COLORS
+@bgWhiteAlt:			#ECF0F1;
+@bgDarkAlt:				#1a4d68;
+@bgGray:				#ecf0f1;
+@bgGrayAlt:				#dee0e1;
+@bgBaseContrast:		#2c3e50;
+@bgBaseContrastAlpha:	rgba(51, 51, 51, 0.8);
+
+// AUX COLORS
+@bgRedAlt:				#eb5a57;
+@bgRed: 				#e91b23;
+@bgGreen:				#2ecc71;
+@bgDarkCyan:			#42bdc2;
+@bgForestGreen:			#7fc242;
+@bgOrange:				#ff8a3c;
+@bgYellow:				#ffd800;
+@bgBlue:				#2980b9;
+@bgPurple:				#8e44ad;
+@bgBlack:				#000;
+
+// COLORS
+@cWhite: 		#fff;
+@cBlack:		#000;
+@cRed:			#f00;
+@cLightGray: 	#999;
+@cDark:			#2c3e50;
+@cBaseLight:	#999;
+
+// PROGESS BARS
+@progressBg:	#000;
+@progressRadius: 5px;
+
+// COLLAPSE - ACCORDION
+@bgCollapseHeading:	@bgWhite;
+@cCollapseHeading:	#FFF;
+@cCollapseContent:	@cBase;
+@collapseBorder:	@borderColor;
+
+// TABS
+@bgTabsBtn:		@bgLightGray;
+@cTabsBtn:		@cGray;
+@bgTabsContent:	@bgWhite;
+
+// PATTERNS
+@patt-1:"../img/patterns/binding-dark.png";
+@patt-2:"../img/patterns/squairy-light.png";
+@patt-3:"../img/patterns/dark-dotted.png";
+@patt-4:"../img/patterns/skulls.png";
+@patt-5:"../img/patterns/grey-wash-wall.png";
+@patt-6:"../img/patterns/squairy-light.png";
+
+// IMAGES
+@img-1:"../img/backgrounds/full-bg-10.jpg";
+@img-2:"../img/backgrounds/full-bg-3.jpg";
+
+// RADIUS
+@paginationRadius: 2px;
+
+@btnRadiusXS:	1px;
+@btnRadiusMD:	2px;
+@btnRadiusLG:	2px;
+
+// RADIUS
+@borderRadius: 3px;
+@borderRadius-xs: 1px;
+@borderRadius-sm: 2px;
+@borderRadius-md: 5px;
+@borderRadius-lg: 8px;
+
+// LINKS
+@linkColorL: 		#FFF;
+@linkColorLHover: 	#FFF;
+
+@linkColorD: 		#000;
+@linkColorDHover: 	#000;
+
+// HEADING FONT SIZES
+@headingXS:				14px;
+@headingSM:				16px;
+@headingMD:				18px;
+@headingLG:				22px;
+
+//// BUTTONS
+@btnOneAlpha: rgba(255, 255, 255, 0);
+@btnTwoAlpha: #fff;
+@btnThreeAlpha: #fff;
+@btnFourAlpha: #fff;
+
+// VIDEO JS
+@playProgress: #c9376e;

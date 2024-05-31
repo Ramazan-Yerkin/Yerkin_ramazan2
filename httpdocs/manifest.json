@@ -1,0 +1,32 @@
+{
+    "dir": "ltr",
+    "name": "Modesy – Marketplace Classified Ads Script | domain.com",
+    "description": "Modesy is a marketplace and classified ads script that you can sell physical and digital products.",
+    "short_name": "Modesy",
+    "icons": [
+        {
+            "src": "https://domain.com/assets/img/pwa/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "https://domain.com/assets/img/pwa/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://domain.com/assets/img/pwa/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "start_url": "https://domain.com",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "url": "https://domain.com",
+    "lang": "",
+    "screenshots": []
+}

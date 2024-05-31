@@ -1,0 +1,338 @@
+// PROGRESS BARS
+.progress {height: 20px; margin-bottom:15px; overflow: hidden; background-color: @progressBg !important; border-radius: @progressRadius;
+-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);}
+.progress.progress-lg{height: 26px;}
+.progress.progress-md{height: 16px;}
+.progress.progress-sm{height: 10px;}
+.progress.progress-xs{height: 4px;}
+
+.progress .sr-only{width: auto; height: 20px; margin: 0; margin-left: 30px; left: 0; clip: auto; line-height: 20px; font-size: 13px;}
+.progress.progress-lg .sr-only{height: 26px; line-height: 26px;}
+.progress.progress-sm .sr-only{height: 14px; line-height: 14px;}
+.progress.progress-xs .sr-only{height: 8px; line-height: 8px;}
+
+.progress.base{background-color: @bgBase;}
+.progress.base-alt{background-color: @bgAlt;}
+.progress.light{background-color: @bgLight;}
+.progress.dark{background-color: @bgDark;}
+
+// PROGRESS BARS
+.progress {height: 6px; margin-bottom: 10px; background-color: @bgLightGray; border-radius: 0; -webkit-box-shadow: none; box-shadow: none;}
+.progress-bar {background-color: @bgBase;-webkit-box-shadow: none; box-shadow: none; border-radius: 0;}
+.progress-text {margin-bottom: 5px;}
+.progress-text .mark {float: left; width: 50%; font-size: 14px; font-weight: 700; color: #fff; background:transparent;}
+.progress-text .mark.right {text-align: right;}
+
+// PROGRESS BAR - STRIPED
+.progress.style-3 .progress-bar {
+    background-image: -webkit-gradient(linear, 100% 0, 0 100%, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-color: #35a7e6;
+    background-size: 20px 20px;
+}
+
+.progress.style-3 .progress-bar.base-alt{background-color: @bgAlt;}
+.progress.style-3 .progress-bar.light{background-color: @bgLight;}
+.progress.style-3 .progress-bar.dark{background-color: @bgDark;}
+
+// PROGRESS BAR - DOWNLOAD BAR
+.progress.download {position: relative;}
+.progress.download .progress-bar {position: absolute; top: 0; left: 0;}
+.progress.download .download-bar {background-color: darken(@bgBase, 10%);}
+.progress.download .download-bar.base-alt{background-color: darken(@bgAlt, 10%);}
+.progress.download .download-bar.light{background-color: darken(@bgLight, 10%);}
+.progress.download .download-bar.dark{background-color: darken(@bgDark, 10%);}
+
+// TABS
+.tab-body{padding: 15px;} 
+div.wp-tabs {margin-bottom: 0;}
+div.wp-tabs:before, div.wp-tabs:after {display: table; content: " ";}
+div.wp-tabs:after{clear: both;}
+div.wp-tabs div.tab-content {
+	-moz-border-radius:none;
+	-moz-box-shadow:none;
+	-webkit-border-radius:0;
+	-webkit-box-shadow: 0;
+	background-color: @bgTabsContent;
+	border: 1px solid @borderColor;
+	border-radius: 0;
+	border-top: 0;
+	box-shadow:none;
+	padding: 15px;
+}
+div.wp-tabs div.tab-content.tab-content-inverse{
+	border:1px solid #EEE;
+	background:transparent;
+}
+div.wp-tabs ul.nav-tabs {margin: 0;}
+div.wp-tabs ul.nav-tabs li.active a {background: @bgTabsBtn; border-top:1px solid @borderColor; color: @cGray;}
+div.wp-tabs ul.nav-tabs a {
+	-moz-border-radius: 0;
+	-webkit-border-radius:0;
+	border-radius: 0;
+	background: @bgTabsBtn;
+	border: 0;
+	border-bottom: 0;
+	margin-right:0;
+	color:#333;
+}
+
+div.wp-tabs ul.nav-tabs a:hover {
+	border-top: 1px solid @borderColor;
+	color:#7a92ac;
+}
+
+div.wp-tabs ul.nav-tabs a:active,
+div.wp-tabs ul.nav-tabs a:focus {
+	border-bottom: 0;
+}
+div.wp-tabs-left ul.nav-tabs a:active,
+div.wp-tabs-left ul.nav-tabs a:focus {
+	border-right: 0;
+}
+div.wp-tabs ul.nav-tabs a,
+div.wp-tabs ul.nav-tabs a:hover {
+	border: 1px solid #EEE;
+	border-right:0;
+	border-top: 1px solid @borderColor;
+	font-size: 0.9em;
+}
+div.wp-tabs ul.nav-tabs li:last-child a,
+div.wp-tabs ul.nav-tabs li:last-child a:hover {border-right: 1px solid @borderColor;}
+
+div.wp-tabs-left  ul.nav-tabs a,
+div.wp-tabs-left  ul.nav-tabs a:hover {
+	border: 1px solid #EEE;
+	border-right: 0;
+	border-left: 2px solid #DDD;
+	color: #CCC;
+	font-size: 0.9em;
+}
+div.wp-tabs-right  ul.nav-tabs a,
+div.wp-tabs-right  ul.nav-tabs a:hover {
+	border: 1px solid #EEE;
+	border-left: 0;
+	border-right: 2px solid #DDD;
+	color: #CCC;
+	font-size: 0.9em;
+}
+/* tab left */
+.tabbable.wp-tabs-left {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+div.tabbable.wp-tabs-left div.tab-content {
+	-moz-border-radius: 0 0 2px 2px;
+	-moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	-webkit-border-radius: 0 0 2px 2px;
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-radius: 0 0 2px 2px;
+	border-left: 0;
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	padding: 15px;
+}
+div.tabbable.wp-tabs-left ul.nav-tabs a {
+	-moz-border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	background: #f7f7f7;
+	border: 1px solid #EEE;
+	border-right: 0;
+	border-radius: 2px 2px 0 0;
+	color: #666;
+	margin-bottom: 3px;
+}
+div.tabbable.wp-tabs-left  ul.nav-tabs li.active a {
+	background: #fff;
+	color: #CCC;
+}
+
+/* tab right */
+.tabbable.wp-tabs-right {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+div.tabbable.wp-tabs-right div.tab-content {
+	-moz-border-radius: 0 0 2px 2px;
+	-moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	-webkit-border-radius: 0 0 2px 2px;
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-radius: 0 0 2px 2px;
+	border-left: 0;
+	margin: 0;
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.04);
+	padding: 15px;
+}
+div.tabbable.wp-tabs-right ul.nav-tabs a {
+	-moz-border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	background: #f7f7f7;
+	border: 1px solid #EEE;
+	border-left: 0;
+	border-radius: 2px 2px 0 0;
+	color: #666;
+	margin-bottom: 3px;
+}
+div.tabbable.wp-tabs-right  ul.nav-tabs li.active a {
+	background: #fff;
+	color: #CCC;
+}
+
+// TABS JUSTIFIED
+.nav-tabs.nav-justified > .active > a, 
+.nav-tabs.nav-justified > .active > a:hover, 
+.nav-tabs.nav-justified > .active > a:focus{border: 1px solid @borderColor; border-right: 0;}
+// TABS CENTERED
+.wp-tabs-centered{width:100%; display:table; margin:0 auto;}
+.wp-tabs-centered ul{}
+.wp-tabs-centered ul li{width:100px; display:inline-block; float:none;}
+
+// TABS
+.tabs-framed{border:1px solid @borderColor;}
+.tabs.bookmarks2 li {max-width: 48%;}
+.tabs.bookmarks3 li {max-width: 32%;}
+.tabs.bookmarks4 li {max-width: 24%;}
+.tabs.bookmarks5 li {max-width: 18%;}
+.tabs.bookmarks6 li {max-width: 16%;}
+
+.tabs {border-bottom: 1px solid @borderColor;}
+.tabs li {float: left; border-right: 1px solid @borderColor; margin-bottom: -1px;}
+.tabs li:first-child {padding-left: 1px;}
+.tabs li.active {background: @bgLightGray;}
+
+.tabs li a{display: block;font-size: @fontSize-md;font-weight: 600;color: @cGray;padding: 12px 25px;margin: 0 -1px;border-bottom: 3px solid transparent;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.tabs li.active a{color:@cGray; border-bottom: 3px solid @bgBase;}
+
+/* Tab Content */
+.tab-image{margin:0 0 12px 0;-webkit-box-shadow: 2px 2px 13px rgba(60,155,213,0.16);box-shadow: 2px 2px 13px rgba(60,155,213,0.16);}
+.tab-image img{display: block; width: 100%;}
+.tab-image.pull-left,
+.tab-image.pull-right{width: 45%;}
+.col-sm-12 .tab-image.pull-left,
+.col-sm-12 .tab-image.pull-right{width: 33%;}
+.tab-image.pull-left {margin:5px 20px 5px 0;}
+.tab-image.pull-right {margin:5px 0 5px 20px;}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .tabs li a{font-size: 18px; padding: 15px;}
+}
+@media (max-width: 479px) {
+    .tabs li a{font-size: 14px; padding: 12px;}
+
+    .tab-image.pull-left,
+    .tab-image.pull-right {width: 100%;margin: 0;margin-bottom: 16px;float: none !important;}
+}
+
+// NAV PILLS
+.nav-pills{margin-bottom:15px; border:1px solid #EEE;}
+
+.nav-pills > li > a {
+  border-radius:0;
+  border-right:1px solid @borderColor;
+}
+.nav-pills > li:last-child > a {
+  border-radius:0;
+  border-right:0;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+	background:#f5f5f5;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: @bgBase;
+  background:none;
+}
+
+// PANELS
+.panel{border-radius: 0; background-color: @bgWhite;}
+.panel.panel-base{background-color: @bgBase;}
+.panel .panel-heading{border-radius: 0; padding: 15px;}
+
+.panel-default{border-color:@borderColor;}
+.panel-default > .panel-heading{border-color:@borderColor;background:@bgLightGray;}
+.panel-default > .panel-heading h2{margin: 0; padding: 0; font-size: @fontSize-md; font-weight: 500; text-transform: @headingStyle; color: @cGray;}
+
+.panel-dark{background: @bgDark; border-color: transparent; color: #FFF;}
+.panel-dark > .panel-heading{border-color: darken(@bgDark, 3%); background: @bgDark; color: #FFF;}
+.panel-dark .bb{border-color: darken(@bgDark, 3%);}
+
+.panel-light{background: @bgLight; border-color: transparent; color: @cDark;}
+.panel-light > .panel-heading{border-color: @borderColor; background: @bgLight; color: @cDark;}
+.panel-light .bb{border-color: darken(@bgLight, 3%);}
+
+// COLLAPSE
+.panel{-webkit-box-shadow: none; box-shadow:none;}
+.panel-group{margin-bottom:30px;}
+.panel-group .panel{border-radius:0; border-color: @collapseBorder;}
+
+.panel-group .panel+.panel{margin-top:0; border-top:0;}
+.panel-group .panel-heading{padding:14px 15px; position:relative; background: @bgCollapseHeading;}
+.panel-group .panel-heading:after{content:"+"; font-size:12px; position:absolute; right:15px; top:50%; margin-top:-8px; color: @cCollapseHeading;}
+.panel-group .panel-heading:after{content:"+"; font-size:12px; position:absolute; right:15px; top:50%; margin-top:-8px; color: @cCollapseHeading;}
+.panel-group .panel-heading a{font-weight:normal; color: @cCollapseHeading;}
+.panel-group .panel-heading a i{margin-right:5px; color: @cCollapseHeading;}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body{border-color: @collapseBorder; color: @cCollapseContent;}
+
+// MODAL
+.modal-footer{margin-top:0;}
+
+// ALERTS
+.alert{border-radius:0;}
+
+// TABLES 
+.table>thead>tr>th{border-bottom:1px solid #ddd;}
+.table>thead>tr{background:#f3f3f3;}
+
+// LABELS
+.label{border-radius:@labelRadius;}
+
+// PAGINATION
+.pagination-style-2 > li > a{margin-right: 4px; border-color: @borderColor; border-radius: @paginationRadius;}
+.pagination > li:first-child > a{border-top-left-radius: @paginationRadius; border-bottom-left-radius: @paginationRadius;}
+.pagination > li:last-child > a{border-top-right-radius: @paginationRadius; border-bottom-right-radius: @paginationRadius;}
+
+.pagination > li > a, 
+.pagination > li > span{background-color: @bgWhite; border-color: @borderColor; color: @bgBase;}
+.pagination > li > a:hover, 
+.pagination > li > span:hover{background-color: @bgBase; border-color: @borderColor; color: @cBaseContrast;}
+
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus{background-color: @bgBase; border-color: @bgBase; color: @cBaseContrast;}
+
+// WELLS
+.well{border-radius: @blockRadius; background: @bgLightGray; border-color: @borderColor; -webkit-box-shadow: none; box-shadow: none;}
+.well.base{background: @bgBase; border-color: transparent;}
+.well.base-alt{background: @bgAlt; border-color: transparent;}
+.well.light{background: @bgLight; border-color: transparent;}
+.well.dark{background: @bgDark; border-color: transparent;}
+
+.well h1, 
+.well h2, 
+.well h3, 
+.well h4, 
+.well h5, 
+.well h6{margin: 0; padding: 0; text-transform: none; font-weight: 500;}
+.well p{margin: 0;}
+
+// LISTS
+.dl-horizontal.style-2 dt{text-align: left; font-size: @fontSize;}

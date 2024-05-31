@@ -1,0 +1,552 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.navbar .navbar-collapse,
+.top-header .top-header-menu {
+    float: left;
+}
+
+.navbar-nav>li,
+.navbar-header,
+.top-header .aux-text {
+    float: right;
+}
+
+
+.navbar-right {
+    float: left!important;
+    margin-right: 0;
+}
+
+.panel-heading .pull-right {
+    float: left !important;
+}
+
+.mylisting i {
+    margin-left: 6px;
+}
+
+.cuselFrameRight {
+    right: inherit;
+    left: 0;
+}
+
+.form-base .cuselFrameRight {
+    border-right:  1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 0 2px 2px 0;
+}
+
+.form-base .cuselText {
+    padding-right: 15px;
+}
+
+#cmdAsideMenu {
+    padding-left: 0;
+}
+
+#asideMenu.aside-menu.right {
+    width: 280px;
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    top: 0;
+     right: initial;
+    background: #222;
+    border-right: 1px solid #333;
+    display: none;
+    z-index: 1100;
+}
+
+#asideMenu.bounceInRight {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+#asideMenu.bounceOutRight {
+    -webkit-animation-name: bounceOutLeft;
+    animation-name: bounceOutLeft;
+}
+
+a.open-panel {
+    position: absolute;
+    left: -55px;
+    right: initial;
+}
+
+.style-switcher-slidebar {
+    right: -285px;
+    left: initial;
+}
+
+.style-switcher-slidebar.opened {
+    left: initial;
+    right: 0;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    right: inherit !important;
+    left: 0;
+    padding-right: 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.bootstrap-select > .dropdown-toggle {
+    padding-right: 15px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    padding-left: 30px;
+    text-align: right;
+}
+
+.bootstrap-select.btn-group .dropdown-menu.inner {
+    text-align: right;
+}
+
+.btn-icon.btn-icon-right:before {
+    left: 0;
+    right: inherit;
+}
+
+#ajax_results .row > div,
+.results_conteiner .row > div {
+    float: right;
+}
+
+.form-horizontal.pull-left {
+    float: right !important;
+}
+
+.sort-filter.pull-right {
+    float: left !important; 
+}
+
+.product-list-filters .filter {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.wp-block-property .ownership-badget {
+    left: inherit;
+    right: 0;
+}
+
+.wp-block-property .wp-block-img .featured-icon {
+    right: inherit; 
+    left: 0;
+    transform-style: preserve-3d; 
+    transform: rotate3d(0,1,0,-180deg);
+    -webkit-transform: rotate3d(0,1,0,-180deg);
+    -o-transform: rotate3d(0,1,0,-180deg);
+    -moz-transform: rotate3d(0,1,0,-180deg);
+    -ms-transform: rotate3d(0,1,0,-180deg);
+}
+
+.wp-block-property .purpose-badget {
+    left: 0;
+    right: inherit;
+}
+
+.wp-block-property .badget {
+    right: 5px;
+    bottom: -5px;
+    left: inherit;
+    transform:rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform:rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+}
+
+.wp-block-content .description .pull-left {
+    float: right !important;
+}
+
+.wp-block-content .description .pull-right {
+    float: left !important;
+}
+
+.wp-block-content .wp-block-footer {
+    float: left !important;
+}
+
+.wp-block.property.grid .wp-block-footer ul.aux-info li i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.pagination>li {
+    float: right;
+}
+
+ul.list-listings.blog-list .listing-image {
+    float: right;
+}
+
+ul.list-listings.blog-list .pull-right {
+    float: left !important;
+}
+
+.widget-agents .row > div,
+.slice.animate-hover-slide-2 .row > div {
+    float: right;
+}
+
+.footer .pull-right {
+    float: left !important;
+}
+
+.footer .row .pull-right {
+    float: left !important;
+}
+
+footer .copyright {
+    float: right;
+    text-align: right;
+}
+
+.footer .pull-left {
+    float: right !important;
+}
+
+.footer .row .pull-left {
+    float: right !important;
+}
+
+.developed_by {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.copyright {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.btn-base-form {
+    background: rgba(0,0,0,0) !important;
+    color: #fff !important;
+    height: 38px;
+    background-color: transparent !important;
+    border: 2px solid #fff !important;
+    border-left: 0 !important;
+}
+
+.btn-b-white-form {
+    left: inherit;
+    right: -1px;
+}
+
+.files-list li {
+    float: right;
+}
+
+.author-info {
+    text-align: right !important;
+    padding-left: 0; 
+    padding-right: 15px; 
+}
+
+.inline-form-filters .row > div,
+.property-form .row > div {
+    float: right;
+}
+
+.property-form .pull-right{
+    float: left !important;
+}
+
+.property-form .btn-icon.btn-icon-right {
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+ul.categories >li >a:after {
+    float: left;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+    border-radius: 2px 0 0 2px !important;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child>.btn-group:not(:last-child)>.btn {
+    border-radius:0 2px 2px 0 !important;
+}
+
+.treefield_sitemap ul {
+    padding: 0;
+    margin: 0 25px 10px 0;
+}
+
+.estate .property-amenities .fa {
+    margin-left: 5px;
+}
+
+.property_options .bottom-border strong {
+    float: right;
+    margin-left: 5px;
+}
+
+.property_options .panel-row .bottom-border:after {
+    content:'';
+    clear: both;
+    display: table;
+}
+
+#main .form-horizontal .control-label {
+    float: right;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#main .form-horizontal .controls {
+    margin-left: 0;
+    margin-right: 180px;
+    padding-left: 10px;
+}
+
+.media>.pull-left {
+    float: right !important;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.media-list {
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+/* user pages  */
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-right: -20px;
+}
+
+.form-group .control-label,
+.control-group label {
+    margin-right: 20px;
+}
+
+
+.login-form .control-group:last-child .controls a {
+    margin-right: 10px;
+}
+
+.hint {
+    margin-right: 3px;
+    margin-left: 0;
+}
+
+.btn .caret {
+    margin-right: 3px;
+}
+
+.form-estate  .col-lg-3.control-label {
+    width: 22%;
+    text-align: right;
+}
+
+.fileinput-button {
+    float: right !important;
+    margin-right: 0 !important;
+}
+
+.form-estate  .col-lg-9.controls {
+    padding-right: 10px;
+}
+
+#main h5 span.checkbox-visible {
+    float: left;
+}
+
+.files-list-u li {
+    float: right !important;
+}
+
+.fileupload-buttonbar .cancel {
+    margin-right: 5px;
+}
+
+.fileupload-loading {
+    position: absolute;
+    left: 0;
+}
+
+
+.fileupload-buttonbar:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.fileupload-buttonbar .col-md-7 {
+    padding-left: 0px;
+    float: right;
+    width: inherit !important;
+}
+
+.fileupload-buttonbar .fileupload-progress {
+    float: left;
+    height: 15px;
+    margin-left: 0 !important;
+}
+
+.property_content form .control-group label.control-label {
+    float: right;
+    padding: 0px 0;
+}
+
+.property_content form.form-horizontal .controls {
+    margin-right: 180px;
+    margin-left: 0;
+}
+
+.tabbable .nav {
+    padding-right: 0;
+}
+
+.form-estate .tabbable .pull-right {
+    float: left !important;
+}
+
+.form-estate .tabbable .lang  {
+    float: right;
+}
+
+.form-estate .tabbable .lang  a {
+    margin-right: 0;
+}
+
+.table th {
+    text-align:right;
+}
+
+.property-detail-amenities > li {
+    float: right  !important;
+}
+
+.property_content .widget-controls .pull-right {
+    float: left !important;
+}
+
+/* end user pages  */
+
+.property-amenities li {
+    float: right !important;
+}
+
+.btn-icon-right span, .btn-icon-right input {
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+.btn-icon-right.btn-xl span, .btn-icon-right.btn-xl input {
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+.btn-icon-right.btn-lg span, .btn-icon-right.btn-lg input {
+    padding-left: 60px;
+    padding-right: 15px;
+}
+	
+
+.carousel .carousel-nav {
+    right: initial;
+    left: 50px;
+}
+
+.footable.breakpoint > tbody > tr span.footable-toggle {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.btn i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+@media (max-width: 991px) {
+    .navbar-wp .navbar-nav {
+        width: 100%;
+        margin: 0;
+        float: none !important;
+    }
+
+    .navbar-wp .navbar-collapse {
+        padding: 0;
+    }
+
+    .navbar-wp .navbar-nav >li {
+        display: block;
+        float: none;
+    }
+
+    .navbar-wp .navbar-nav >li >a:after {
+        content: "+";
+        position: relative;
+        float: left;
+    }
+
+    #main .property_content form.form-horizontal .control-label {
+        text-align: right;
+        width: 160px;
+        margin-right: 5px;
+    }
+
+    #main .form-horizontal .controls {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+    }
+
+    .footable-row-detail-row {
+        display: table-row;
+        line-height: 2.5em;
+    }
+
+}
+
+.wp-block.property.list .wp-block-body .wp-block-content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+
+.wp-block.property.list .wp-block-body .wp-block-content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.slice  .carousel-inner .item .wp-block.inverse .row > * {
+    float: right;
+}
+
+.like-button {
+    display: inline-block;
+    text-align: center;
+}
+
+.slice  .carousel-inner .item .wp-block.inverse .row .col-xs-3 {
+    text-align: left;
+}
+
+.like-button .count {
+    text-align: center;
+}
+
+.marker-cluster div {
+    margin-left: 0;
+    margin-right: 5px;
+}

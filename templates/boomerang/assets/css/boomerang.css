@@ -1,0 +1,34 @@
+
+/* [Fixes on theme] */
+
+
+ul.list-listings .listing-image {
+    width: 100%;
+    display: block;
+}
+
+.carousel-1 .description-left .title {
+    font-size: 2.5vw;
+}
+
+.pg-opt-top {
+    border-top: 1px solid #e0eded;
+}
+
+.pg-opt-top h2.title 
+.pg-opt h2.section-title {
+    padding: 15px 0;
+}
+
+.section-title-min {
+    padding: 10px 0 !important;
+    padding-left: 14px !important;
+}
+
+.form-checkbox  .checkbox input[type=checkbox] {
+    position: inherit;
+    margin-left:0;
+    margin-right:5px;
+}
+/* [/Fixes on theme] */
+

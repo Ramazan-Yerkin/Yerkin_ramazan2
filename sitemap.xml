@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+			    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/152</loc>
+	<lastmod>2014-04-06T16:21:32+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/152"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/152</loc>
+	<lastmod>2014-04-06T16:21:32+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/152"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/155/test_news_category</loc>
+	<lastmod>2014-04-06T20:13:51+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/155/test_news_category"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/155/test_novost_kategorija</loc>
+	<lastmod>2014-04-06T20:13:51+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/155/test_novost_kategorija"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/159/test_news_category_2</loc>
+	<lastmod>2014-04-15T18:37:33+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/159/test_news_category_2"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/159/test_news_category_2</loc>
+	<lastmod>2014-04-15T18:37:33+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/159/test_news_category_2"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/151</loc>
+	<lastmod>2014-04-06T16:07:03+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/151"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/151</loc>
+	<lastmod>2014-04-06T16:07:03+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/151"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/178/test_news_category_3</loc>
+	<lastmod>2016-06-01T19:35:16+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/178/test_news_category_3"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/178/test_news_category_3</loc>
+	<lastmod>2016-06-01T19:35:16+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/178/test_news_category_3"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/169/agents</loc>
+	<lastmod>2014-08-01T19:02:31+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/169/agents"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/169/agenti</loc>
+	<lastmod>2014-08-01T19:02:31+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/169/agenti"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/5/about_us</loc>
+	<lastmod>2013-12-12T16:01:35+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/5/about_us"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/5/o_nama</loc>
+	<lastmod>2013-12-12T16:01:35+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/5/o_nama"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/147/featured</loc>
+	<lastmod>2014-04-05T10:33:02+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/147/featured"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/147/izdvojene</loc>
+	<lastmod>2014-04-05T10:33:02+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/147/izdvojene"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/142/blog_page</loc>
+	<lastmod>2014-01-04T22:19:49+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/142/blog_page"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/142/blog_stranica</loc>
+	<lastmod>2014-01-04T22:19:49+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/142/blog_stranica"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/143/custom_search</loc>
+	<lastmod>2014-02-10T10:54:19+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/143/custom_search"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/143/prilagodeni_pretrazivac</loc>
+	<lastmod>2014-02-10T10:54:19+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/143/prilagodeni_pretrazivac"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/3/rent</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/3/rent"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/3/najam</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/3/najam"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/2/sale</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/2/sale"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/2/prodaja</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/2/prodaja"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/154/test_news</loc>
+	<lastmod>2014-04-06T20:01:32+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/154/test_news"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/154/test_novost</loc>
+	<lastmod>2014-04-06T20:01:32+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/154/test_novost"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/144/sale_and_rent</loc>
+	<lastmod>2014-02-20T16:16:30+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/144/sale_and_rent"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/144/prodaja_i_najam</loc>
+	<lastmod>2014-02-20T16:16:30+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/144/prodaja_i_najam"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/146/google_link</loc>
+	<lastmod>2014-03-15T18:18:13+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/146/google_link"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/146/google_link</loc>
+	<lastmod>2014-03-15T18:18:13+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/146/google_link"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/157/articles</loc>
+	<lastmod>2014-04-08T22:08:34+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/157/articles"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/157/clanci</loc>
+	<lastmod>2014-04-08T22:08:34+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/157/clanci"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/158/test_article_2</loc>
+	<lastmod>2014-04-08T22:30:56+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/158/test_article_2"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/158/test_clanak_2</loc>
+	<lastmod>2014-04-08T22:30:56+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/158/test_clanak_2"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/156/article_test</loc>
+	<lastmod>2014-04-08T17:59:20+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/156/article_test"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/156/test_clanak</loc>
+	<lastmod>2014-04-08T17:59:20+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/156/test_clanak"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/160/showroom</loc>
+	<lastmod>2014-04-27T20:45:54+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/160/showroom"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/160/showroom</loc>
+	<lastmod>2014-04-27T20:45:54+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/160/showroom"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/161/ask_expert</loc>
+	<lastmod>2014-05-10T13:27:50+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/161/ask_expert"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/161/pitaj_eksperta</loc>
+	<lastmod>2014-05-10T13:27:50+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/161/pitaj_eksperta"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/en/173/treefield_sitemap</loc>
+	<lastmod>2015-01-20T18:56:43+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="hr"
+        href="http://localhost/themes-customization/index.php/hr/173/treefield_sitemap"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/hr/173/treefield_sitemap</loc>
+	<lastmod>2015-01-20T18:56:43+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="http://localhost/themes-customization/index.php/en/173/treefield_sitemap"
+    />
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/47/en/latigo</loc>
+	<lastmod>2016-06-01T19:44:23+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/47/hr/latigo</loc>
+	<lastmod>2016-06-01T19:44:23+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/46/en/bank_secretary</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/46/hr/bank_secretary</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/45/en/php_developer</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/45/hr/php_developer</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/44/en/motor_sky</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/44/hr/motor_sky</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/43/en/sailing_sea</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/43/hr/sailing_sea</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/42/en/john_deer</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/42/hr/john_deer</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/41/en/sea_lander</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/41/hr/sea_lander</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/40/en/ducato_camper_z231</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/40/hr/ducato_camper_z231</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/39/en/yamaha_sport_gt</loc>
+	<lastmod>2016-05-13T20:58:27+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/39/hr/yamaha_sport_gt</loc>
+	<lastmod>2016-05-13T20:58:27+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/38/en/bmw_gs_adventures</loc>
+	<lastmod>2016-05-13T20:53:36+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/38/hr/bmw_gs_adventures</loc>
+	<lastmod>2016-05-13T20:53:36+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/37/en/honda_civic</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/37/hr/honda_civic</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/36/en/ford_mondeo</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/36/hr/ford_mondeo</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/35/en/dacia_duster</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/35/hr/dacia_duster</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/34/en/bmw_3</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/34/hr/bmw_3</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/33/en/audi_a3</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/33/hr/audi_a3</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/32/en/alfa_mito_red</loc>
+	<lastmod>2016-03-24T14:17:01+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/32/hr/alfa_mito_red</loc>
+	<lastmod>2016-03-24T14:17:01+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/31/en/cadillac_sedan</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/31/hr/cadillac_sedan</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/30/en/bjelovar_estate</loc>
+	<lastmod>2016-02-04T19:04:10+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/30/hr/bjelovar_nekretnina</loc>
+	<lastmod>2016-02-04T19:04:10+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/19/en/retro_old</loc>
+	<lastmod>2016-02-10T19:46:55+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/19/hr/stari_retro</loc>
+	<lastmod>2016-02-10T19:46:55+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/18/en/small_beauty</loc>
+	<lastmod>2017-01-15T11:02:48+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/18/hr/malena_ljepotica</loc>
+	<lastmod>2017-01-15T11:02:48+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/17/en/classic_american</loc>
+	<lastmod>2014-12-28T18:59:42+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/17/hr/americka_kuca</loc>
+	<lastmod>2014-12-28T18:59:42+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/16/en/fear_wood</loc>
+	<lastmod>2016-02-10T19:51:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/16/hr/drvo_straha</loc>
+	<lastmod>2016-02-10T19:51:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/15/en/round_towers</loc>
+	<lastmod>2015-02-17T14:47:57+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/15/hr/okrugle_kule</loc>
+	<lastmod>2015-02-17T14:47:57+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/14/en/black_glass_house</loc>
+	<lastmod>2015-11-18T16:03:37+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/14/hr/kuca_crno_staklo</loc>
+	<lastmod>2015-11-18T16:03:37+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/13/en/yellow_wood</loc>
+	<lastmod>2014-12-28T19:01:39+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/13/hr/zuto_drvo</loc>
+	<lastmod>2014-12-28T19:01:39+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/12/en/retro_house</loc>
+	<lastmod>2015-10-23T20:36:26+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/12/hr/retro_kuca</loc>
+	<lastmod>2015-10-23T20:36:26+02:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/11/en/sky_apartment</loc>
+	<lastmod>2014-12-28T19:00:31+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/11/hr/sky_apartman</loc>
+	<lastmod>2014-12-28T19:00:31+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/10/en/lux_apartment</loc>
+	<lastmod>2014-12-28T19:00:41+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/10/hr/lux_apartman</loc>
+	<lastmod>2014-12-28T19:00:41+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/9/en/jezero_restaurant</loc>
+	<lastmod>2015-12-01T19:37:22+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/9/hr/restoran_jezero</loc>
+	<lastmod>2015-12-01T19:37:22+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/8/en/ozalj_apartment</loc>
+	<lastmod>2016-02-10T19:01:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/8/hr/ozalj_apartman</loc>
+	<lastmod>2016-02-10T19:01:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/7/en/spa_bliznec</loc>
+	<lastmod>2014-12-28T19:01:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/property/7/hr/toplice_bliznec</loc>
+	<lastmod>2014-12-28T19:01:06+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/4/en</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/4/hr</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/5/en</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/5/hr</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/6/en</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/themes-customization/index.php/showroom/6/hr</loc>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+</urlset>
